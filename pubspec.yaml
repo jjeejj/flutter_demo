@@ -31,7 +31,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
-  wechat_assets_picker: ^9.0.3
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -39,9 +40,13 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
   flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.10
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -52,7 +57,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - images/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -78,3 +84,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+analyzer:
+  plugins:
+    - custom_lint

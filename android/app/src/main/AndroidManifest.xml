@@ -50,4 +50,14 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
+
+<!--    <activity>-->
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.PROCESS_TEXT"/>-->
+<!--            <category android:name="android.intent.category.DEFAULT"/>-->
+<!--            <data android:mimeType="text/plain"/>-->
+
+<!--            <data android:scheme="http" android:host="*" />-->
+<!--        </intent-filter>-->
+<!--    </activity>-->
 </manifest>
