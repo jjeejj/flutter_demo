@@ -10,21 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/key/key.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/start/index.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/start/index.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/form/form.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/share/share.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/logger.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_wechat_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_wechat_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +56,45 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/cross_file-0.3.4+1/lib/src/types/interface.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/logger-2.2.0/lib/logger.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/logger-2.2.0/lib/src/log_level.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/logger-2.2.0/lib/src/logger.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.1.3/lib/path_provider.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/share_plus-9.0.0/lib/share_plus.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/core/stacktrace.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/io/directory.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/io/file.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/typed_data/typed_data.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/ui/platform_dispatcher.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/ui/window.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/foundation/key.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/material/button_bar.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/rendering/proxy_box.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/widgets/basic.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/widgets/framework.dart" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gD2KigJLiY2lbVIf7KeRONhsAv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
@@ -73,25 +107,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flutter.main.dart.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "io.flutter.reload.alreadyRun": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wenjunjiang/repo/flutter_wechat_demo",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flutter.main.dart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wenjunjiang/repo/flutter_wechat_demo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;flutter.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,5 +142,15 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
 </project>

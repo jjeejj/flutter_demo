@@ -45,8 +45,8 @@ android {
         applicationId "com.example.flutter_wechat_demo"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 21 //flutter.minSdkVersion
-        targetSdkVersion 34 //flutter.targetSdkVersion
+        minSdkVersion flutter.minSdkVersion //flutter.minSdkVersion
+        targetSdkVersion flutter.targetSdkVersion //flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -64,4 +64,6 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20" // $kotlin_version
+}
