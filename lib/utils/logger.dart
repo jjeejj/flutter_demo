@@ -60,6 +60,7 @@ class LoggerHelper {
     Object? error,
     StackTrace? stackTrace,
   }) {
-    _logger.log(level, message, time: time, error: error, stackTrace: stackTrace);
+    _logger.log(level, message,
+        time: time, error: error, stackTrace: stackTrace);
   }
 }
