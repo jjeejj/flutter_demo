@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+   <key>NSContactsUsageDescription</key>
+   <string>我们需要访问您的电话权限以便拨打电话</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>你的相册权限描述</string>
 	<key>CFBundleDevelopmentRegion</key>
