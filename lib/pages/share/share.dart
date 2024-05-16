@@ -33,9 +33,10 @@ class SharePage extends StatelessWidget {
       ui.Image image = await boundary.toImage(pixelRatio: dpr);
       ByteData? byteData =
           await image.toByteData(format: ui.ImageByteFormat.png);
+      LoggerHelper.i("_capturePngToByteData success");
       return byteData;
     } catch (e) {
-      // LoggerHelper.e("_capturePngToByteData err", error: e);
+      LoggerHelper.e("_capturePngToByteData err", error: e);
     }
     return null;
   }
