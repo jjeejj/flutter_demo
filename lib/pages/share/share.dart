@@ -7,6 +7,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:flutter_wechat_demo/utils/call.dart';
 
 class SharePage extends StatelessWidget {
   final GlobalKey _screeShotKey = GlobalKey();
@@ -17,11 +18,14 @@ class SharePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return RepaintBoundary(
         key: _screeShotKey,
-        child: GestureDetector(
-          onTap: () {
-            _save();
-          },
-          child: const Text("截图"),
+        child: Row(
+          children: [
+            ElevatedButton(
+              onPressed: _save,
+              child: const Text('截图'),
+            ),
+            const ElevatedButton(onPressed: _call, child: Text('打电话'))
+          ],
         ));
   }
 
@@ -55,4 +59,8 @@ class SharePage extends StatelessWidget {
     // 分享
     Share.shareXFiles([XFile('$storePath/fs.png')]);
   }
+}
+
+void _call() async {
+  launchPhone('10086');
 }
