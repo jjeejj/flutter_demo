@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wechat_demo/pages/hero_animation/hero.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 
 import 'pages/share/share.dart';
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const TestKeyPage(),
-      home: SharePage(),
+      // home: SharePage(),
+      home: HeroAnimtion(),
     );
   }
 }
