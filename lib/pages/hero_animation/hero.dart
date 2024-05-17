@@ -90,10 +90,16 @@ class ImageDetail extends StatelessWidget {
           return MaterialRectArcTween(begin: begin, end: end);
         },
         tag: "hero-item-$index",
-        child: const Center(
-          child: Image(
-            image: AssetImage("images/big.png"),
-          ),
+        child: Center(
+          child: GestureDetector(
+            child: const Image(
+              image: AssetImage("images/big.png"),
+            ),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          )
+
         ),
       ),
     );
