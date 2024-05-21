@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wechat_demo/pages/hero_animation/hero.dart';
+import 'package:flutter_wechat_demo/pages/sealed/cubit_page.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 
 import 'pages/share/share.dart';
@@ -39,7 +40,10 @@ class MyApp extends StatelessWidget {
       ),
       // home: const TestKeyPage(),
       // home: SharePage(),
-      home: HeroAnimtion(),
+      // home: HeroAnimtion(),
+      home: const CubitPage(
+        title: 'Sealed Class Tutorial',
+      ),
     );
   }
 }
