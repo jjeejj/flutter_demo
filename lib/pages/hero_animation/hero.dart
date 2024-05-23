@@ -1,41 +1,40 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wechat_demo/gen/assets.gen.dart';
 
 class HeroAnimtion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text(
-      //     "Hero Animation"
-      //   ),
-      // ),
-      body: Container(
-        decoration: const BoxDecoration(
+        // appBar: AppBar(
+        //   title: const Text(
+        //     "Hero Animation"
+        //   ),
+        // ),
+        body: Container(
+      decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/login_bg.png"),
-            fit: BoxFit.fill,
+        image: AssetImage("images/login_bg.png"),
+        fit: BoxFit.fill,
+      )),
+      child: Stack(
+        children: [
+          ListView.builder(
+            itemBuilder: (context, index) {
+              return HeroItem(index);
+            },
+            itemCount: 20,
+            // controller: ,
           )
-        ),
-        child: Stack(
-          children: [
-            ListView.builder(
-                itemBuilder: (context, index) {
-                  return HeroItem(index);
-                },
-              itemCount: 20,
-              // controller: ,
-            )
-          ],
-        ),
-      )
-    );
+        ],
+      ),
+    ));
   }
 
-  // @override
-  // State<StatefulWidget> createState() {
-  //   // TODO: implement createState
-  //   throw UnimplementedError();
-  // }
+// @override
+// State<StatefulWidget> createState() {
+//   // TODO: implement createState
+//   throw UnimplementedError();
+// }
 }
 
 // class _HeroAnimtionState extends State<HeroAnimtion> {
@@ -47,14 +46,15 @@ class HeroAnimtion extends StatelessWidget {
 //
 // }
 
-
 class HeroItem extends StatelessWidget {
   final int index;
+
   const HeroItem(this.index, {super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title:  Text('Item $index'),
+      title: Text('Item $index'),
       leading: Hero(
         createRectTween: (begin, end) {
           return MaterialRectArcTween(begin: begin, end: end);
@@ -65,14 +65,9 @@ class HeroItem extends StatelessWidget {
         ),
       ),
       onTap: () {
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) {
-                  return ImageDetail(index);
-                }
-            )
-        );
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return ImageDetail(index);
+        }));
       },
     );
   }
@@ -80,6 +75,7 @@ class HeroItem extends StatelessWidget {
 
 class ImageDetail extends StatelessWidget {
   final int index;
+
   const ImageDetail(this.index, {super.key});
 
   @override
@@ -91,18 +87,13 @@ class ImageDetail extends StatelessWidget {
         },
         tag: "hero-item-$index",
         child: Center(
-          child: GestureDetector(
-            child: const Image(
-              image: AssetImage("images/big.png"),
-            ),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          )
-
-        ),
+            child: GestureDetector(
+          child: Image.asset(Assets.images.big.path),
+          onTap: () {
+            Navigator.pop(context);
+          },
+        )),
       ),
     );
   }
-
 }
