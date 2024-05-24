@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+import '../../gen/assets.gen.dart';
+import '../../gen/fonts.gen.dart';
+
 class TimelinePage extends StatelessWidget {
   final int count;
 
@@ -37,8 +40,11 @@ class TimelinePage extends StatelessWidget {
                       ),
                       Text(
                         "SubTitle $index",
-                        style:
-                            const TextStyle(fontSize: 16, color: Colors.grey),
+                        style: const TextStyle(
+                          fontSize: 16,
+                          color: Colors.grey,
+                          fontFamily: FontFamily.maShanZheng,
+                        ),
                       )
                     ],
                   )),

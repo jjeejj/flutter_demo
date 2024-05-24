@@ -9,14 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: apk 打包脚本">
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gen/assets.gen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 图片资产管理">
+      <change afterPath="$PROJECT_DIR$/fonts/MaShanZheng-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/hero_animation/hero.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/hero_animation/hero.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/timeline/timeline.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/timeline/timeline.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +67,7 @@
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/bin/cache/pkg/sky_engine/lib/ui/window.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/foundation/key.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/material/button_bar.dart" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/painting/image_resolution.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/rendering/proxy_box.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/widgets/basic.dart" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/tool/flutter3.3.8/packages/flutter/lib/src/widgets/framework.dart" root0="SKIP_INSPECTION" />
@@ -97,27 +94,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Dart Command Line App.build_apk.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Flutter.main.dart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wenjunjiang/repo/flutter_wechat_demo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.build_apk.dart.executor": "Run",
+    "Flutter.main.dart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wenjunjiang/repo/flutter_wechat_demo/fonts",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
-  <component name="RunManager" selected="Dart Command Line App.build_apk.dart">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="build_apk.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/script/build_apk.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716378395482</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 图片资产管理">
+      <option name="closed" value="true" />
+      <created>1716456724840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716456724840</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,6 +240,7 @@
     <MESSAGE value="feat: sealed 密封类" />
     <MESSAGE value="feat: timeline page" />
     <MESSAGE value="feat: apk 打包脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: apk 打包脚本" />
+    <MESSAGE value="feat: 图片资产管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 图片资产管理" />
   </component>
 </project>
