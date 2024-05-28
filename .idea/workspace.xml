@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 图片资产管理">
-      <change afterPath="$PROJECT_DIR$/fonts/MaShanZheng-Regular.ttf" afterDir="false" />
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 字体资产管理">
+      <change afterPath="$PROJECT_DIR$/lib/pages/dialog/dialog.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/isolates_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/timeline/timeline.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/timeline/timeline.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+    <option name="myAllFileTypesSelected" value="false" />
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Dart" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -93,10 +101,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Dart Command Line App.build_apk.dart.executor": "Run",
+    "Flutter Test.tests in isolates_test.dart.executor": "Run",
     "Flutter.main.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,7 +120,7 @@
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wenjunjiang/repo/flutter_wechat_demo/fonts",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -119,14 +129,27 @@
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart">
+  <component name="RunManager" selected="Flutter Test.new isolate">
     <configuration name="build_apk.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/script/build_apk.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="new isolate" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="new isolate" />
+      <option name="testFile" value="$PROJECT_DIR$/test/isolates_test.dart" />
+      <option name="useRegexp" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in isolates_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/isolates_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.new isolate" />
+        <item itemvalue="Flutter Test.tests in isolates_test.dart" />
         <item itemvalue="Dart Command Line App.build_apk.dart" />
       </list>
     </recent_temporary>
@@ -212,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716456724840</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: 字体资产管理">
+      <option name="closed" value="true" />
+      <created>1716542814613</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716542814613</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -241,6 +272,7 @@
     <MESSAGE value="feat: timeline page" />
     <MESSAGE value="feat: apk 打包脚本" />
     <MESSAGE value="feat: 图片资产管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 图片资产管理" />
+    <MESSAGE value="feat: 字体资产管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 字体资产管理" />
   </component>
 </project>
