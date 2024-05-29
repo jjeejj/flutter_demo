@@ -9,10 +9,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 字体资产管理">
-      <change afterPath="$PROJECT_DIR$/lib/pages/dialog/dialog.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/isolates_test.dart" afterDir="false" />
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="test:isolate">
+      <change afterPath="$PROJECT_DIR$/lib/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +91,9 @@
       </set>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -106,6 +117,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Dart Command Line App.build_apk.dart.executor": "Run",
+    "Flutter Test.Counter increments smoke test.executor": "Run",
+    "Flutter Test.new isolate.executor": "Run",
     "Flutter Test.tests in isolates_test.dart.executor": "Run",
     "Flutter.main.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -120,7 +133,7 @@
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wenjunjiang/repo/flutter_wechat_demo/fonts",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -129,10 +142,16 @@
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter Test.new isolate">
+  <component name="RunManager" selected="Flutter Test.Counter increments smoke test">
     <configuration name="build_apk.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/script/build_apk.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Counter increments smoke test" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="Counter increments smoke test" />
+      <option name="testFile" value="$PROJECT_DIR$/test/widget_test.dart" />
+      <option name="useRegexp" value="true" />
       <method v="2" />
     </configuration>
     <configuration name="new isolate" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
@@ -148,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.Counter increments smoke test" />
         <item itemvalue="Flutter Test.new isolate" />
         <item itemvalue="Flutter Test.tests in isolates_test.dart" />
         <item itemvalue="Dart Command Line App.build_apk.dart" />
@@ -243,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716542814613</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test:isolate">
+      <option name="closed" value="true" />
+      <created>1716869941522</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716869941522</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -273,6 +301,7 @@
     <MESSAGE value="feat: apk 打包脚本" />
     <MESSAGE value="feat: 图片资产管理" />
     <MESSAGE value="feat: 字体资产管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 字体资产管理" />
+    <MESSAGE value="test:isolate" />
+    <option name="LAST_COMMIT_MESSAGE" value="test:isolate" />
   </component>
 </project>

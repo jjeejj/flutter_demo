@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wechat_demo/pages/hero_animation/hero.dart';
-import 'package:flutter_wechat_demo/pages/sealed/cubit_page.dart';
 import 'package:flutter_wechat_demo/pages/timeline/timeline.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
 
-import 'pages/share/share.dart';
-
-void main() {
+Future<void> main() async {
   LoggerHelper();
-  runApp(const MyApp());
+  SentryFlutter.init(
+    (options) {
+      options.dsn = '';
+      options.compressPayload = true;
+      options.sampleRate = 1.0;
+      options.tracesSampleRate = 1.0;
+    },
+    appRunner: () => runApp(const MyApp()),
+  );
 }
 
 class MyApp extends StatelessWidget {
