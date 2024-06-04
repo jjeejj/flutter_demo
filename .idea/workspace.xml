@@ -9,9 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 主题设置">
-      <change afterPath="$PROJECT_DIR$/lib/utils/string.dart" afterDir="false" />
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: String capitalize function extension">
+      <change afterPath="$PROJECT_DIR$/images/daily_task_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/extensions/list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/error_message.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/dio_http.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/string.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extensions/string.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717154248830</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: String capitalize function extension">
+      <option name="closed" value="true" />
+      <created>1717221881198</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717221881198</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,6 +325,7 @@
     <MESSAGE value="test:isolate" />
     <MESSAGE value="feat: add sentry plugin" />
     <MESSAGE value="feat: 主题设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 主题设置" />
+    <MESSAGE value="feat: String capitalize function extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: String capitalize function extension" />
   </component>
 </project>
