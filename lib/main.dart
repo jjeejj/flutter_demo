@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wechat_demo/pages/timeline/timeline.dart';
+import 'package:flutter_wechat_demo/pages/select_checkbox/checkbox.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
@@ -23,25 +23,25 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      darkTheme:
-          ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
-      themeMode: ThemeMode.system,
-      // home: const TestKeyPage(),
-      // home: SharePage(),
-      // home: HeroAnimtion(),
-      // home: const CubitPage(
-      //   title: 'Sealed Class Tutorial',
-      // ),
-      home: const TimelinePage(
-        count: 20,
-      ),
-    );
+        title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        darkTheme:
+            ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
+        themeMode: ThemeMode.system,
+        // home: const TestKeyPage(),
+        // home: SharePage(),
+        // home: HeroAnimtion(),
+        // home: const CubitPage(
+        //   title: 'Sealed Class Tutorial',
+        // ),
+        // home: const TimelinePage(
+        //   count: 20,
+        // ),
+        home: const CheckBoxPage());
   }
 }
 
