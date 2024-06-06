@@ -3,6 +3,8 @@ import 'package:flutter_wechat_demo/pages/select_checkbox/checkbox.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
+import 'pages/build_model/build_model.dart';
+
 Future<void> main() async {
   LoggerHelper();
   SentryFlutter.init(
@@ -41,7 +43,8 @@ class MyApp extends StatelessWidget {
         // home: const TimelinePage(
         //   count: 20,
         // ),
-        home: const CheckBoxPage());
+        // home: const CheckBoxPage();
+        home: const BuildModelPage());
   }
 }
 
