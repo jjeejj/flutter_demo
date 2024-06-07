@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wechat_demo/pages/one_show/one_show_page.dart';
 import 'package:flutter_wechat_demo/pages/select_checkbox/checkbox.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
@@ -44,7 +45,9 @@ class MyApp extends StatelessWidget {
         //   count: 20,
         // ),
         // home: const CheckBoxPage();
-        home: const BuildModelPage());
+        // home: const BuildModelPage()
+        home: const OneShowPage()
+        );
   }
 }
 

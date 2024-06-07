@@ -15,18 +15,40 @@ class $ImagesGen {
   /// File path: images/big.png
   AssetGenImage get big => const AssetGenImage('images/big.png');
 
+  /// File path: images/daily_task_icon.png
+  AssetGenImage get dailyTaskIcon =>
+      const AssetGenImage('images/daily_task_icon.png');
+
   /// File path: images/login_bg.png
   AssetGenImage get loginBg => const AssetGenImage('images/login_bg.png');
 
   /// File path: images/small.png
   AssetGenImage get small => const AssetGenImage('images/small.png');
 
+  /// File path: images/top_one.png
+  AssetGenImage get topOne => const AssetGenImage('images/top_one.png');
+
+  /// File path: images/top_three.png
+  AssetGenImage get topThree => const AssetGenImage('images/top_three.png');
+
+  /// File path: images/top_two.png
+  AssetGenImage get topTwo => const AssetGenImage('images/top_two.png');
+
   /// File path: images/user_rank_bg.png
   AssetGenImage get userRankBg =>
       const AssetGenImage('images/user_rank_bg.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [big, loginBg, small, userRankBg];
+  List<AssetGenImage> get values => [
+        big,
+        dailyTaskIcon,
+        loginBg,
+        small,
+        topOne,
+        topThree,
+        topTwo,
+        userRankBg
+      ];
 }
 
 class Assets {
