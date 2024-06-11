@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wechat_demo/pages/one_show/one_show_page.dart';
-import 'package:flutter_wechat_demo/pages/select_checkbox/checkbox.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
-
-import 'pages/build_model/build_model.dart';
 
 Future<void> main() async {
   LoggerHelper();
@@ -46,8 +43,7 @@ class MyApp extends StatelessWidget {
         // ),
         // home: const CheckBoxPage();
         // home: const BuildModelPage()
-        home: const OneShowPage()
-        );
+        home: OneShowPage());
   }
 }
 
