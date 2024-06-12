@@ -3,6 +3,8 @@ import 'package:flutter_wechat_demo/pages/one_show/one_show_page.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
+import 'gen/fonts.gen.dart';
+
 Future<void> main() async {
   LoggerHelper();
   SentryFlutter.init(
@@ -26,9 +28,9 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
+            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            useMaterial3: true,
+            fontFamily: FontFamily.maShanZheng),
         darkTheme:
             ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
         themeMode: ThemeMode.system,

@@ -26,11 +26,20 @@ class _OneShowPageState extends State<OneShowPage> {
 
   Widget textWidget() {
     // return Text(widget.textContent + widget.from);
-    return VerticalText(
-      textContent: widget.textContent,
-      from: widget.from,
-      singleLineWidth: 16,
-      numberOfSingleLineText: 10,
+    return AnimatedOpacity(
+      opacity: widget.textContent != '' ? 1.0 : 0.0,
+      duration: const Duration(milliseconds: 2000),
+      curve: Curves.ease,
+      child: AnimatedRotation(
+        turns: widget.textContent != '' ? 1.0 : 0.0,
+        duration: const Duration(milliseconds: 2000),
+        child: VerticalText(
+          textContent: widget.textContent,
+          from: widget.from,
+          singleLineWidth: 16,
+          numberOfSingleLineText: 10,
+        ),
+      ),
     );
   }
 

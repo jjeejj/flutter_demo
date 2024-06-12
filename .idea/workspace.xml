@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 加载 一言内容">
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 垂直文本排列组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/components/vertical_text.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/vertical_text.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/one_show/one_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/one_show/one_show_page.dart" afterDir="false" />
@@ -317,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718106225653</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: 垂直文本排列组件">
+      <option name="closed" value="true" />
+      <created>1718191728062</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718191728062</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,6 +362,7 @@
     <MESSAGE value="feat: add extension folder" />
     <MESSAGE value="feat: checkbox page" />
     <MESSAGE value="feat: 加载 一言内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 加载 一言内容" />
+    <MESSAGE value="feat: 垂直文本排列组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 垂直文本排列组件" />
   </component>
 </project>
