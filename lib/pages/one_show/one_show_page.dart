@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_wechat_demo/utils/logger.dart';
 import 'package:http/http.dart' as http;
 
+import '../../components/vertical_text.dart';
+
 class OneShowPage extends StatefulWidget {
   OneShowPage({super.key});
 
@@ -23,7 +25,13 @@ class _OneShowPageState extends State<OneShowPage> {
   }
 
   Widget textWidget() {
-    return Text(widget.textContent + widget.from);
+    // return Text(widget.textContent + widget.from);
+    return VerticalText(
+      textContent: widget.textContent,
+      from: widget.from,
+      singleLineWidth: 16,
+      numberOfSingleLineText: 10,
+    );
   }
 
   Widget darkModel() {
