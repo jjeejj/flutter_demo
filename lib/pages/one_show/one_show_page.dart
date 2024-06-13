@@ -10,6 +10,7 @@ class OneShowPage extends StatefulWidget {
   OneShowPage({super.key});
 
   bool darkModelOn = false;
+  bool customTheme = false; // 是否自定义修改了主题
   String textContent = '';
   String from = '';
 
@@ -17,11 +18,42 @@ class OneShowPage extends StatefulWidget {
   State<StatefulWidget> createState() => _OneShowPageState();
 }
 
-class _OneShowPageState extends State<OneShowPage> {
+class _OneShowPageState extends State<OneShowPage> with WidgetsBindingObserver {
+  Brightness _platformBrightness = Brightness.light;
+
   @override
   void initState() {
     super.initState();
     loadTextContent();
+    WidgetsBinding.instance.addObserver(this);
+    _updateBrightness();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  void _updateBrightness() {
+    setState(() {
+      _platformBrightness =
+          WidgetsBinding.instance.platformDispatcher.platformBrightness;
+    });
+  }
+
+  @override
+  void didChangePlatformBrightness() {
+    _updateBrightness();
+    if (!widget.customTheme) {
+      setState(() {
+        if (_platformBrightness.name == "light") {
+          widget.darkModelOn = false;
+        } else {
+          widget.darkModelOn = true;
+        }
+      });
+    }
   }
 
   Widget textWidget() {
