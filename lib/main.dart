@@ -31,8 +31,10 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
             fontFamily: FontFamily.maShanZheng),
-        darkTheme:
-            ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
+        darkTheme: ThemeData(
+            brightness: Brightness.dark,
+            primarySwatch: Colors.blue,
+            fontFamily: FontFamily.maShanZheng),
         themeMode: ThemeMode.system,
         // home: const TestKeyPage(),
         // home: SharePage(),
