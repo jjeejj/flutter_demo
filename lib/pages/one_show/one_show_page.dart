@@ -65,11 +65,16 @@ class _OneShowPageState extends State<OneShowPage> with WidgetsBindingObserver {
       child: AnimatedRotation(
         turns: widget.textContent != '' ? 1.0 : 0.0,
         duration: const Duration(milliseconds: 2000),
-        child: VerticalText(
-          textContent: widget.textContent,
-          from: widget.from,
-          singleLineWidth: 16,
-          numberOfSingleLineText: 10,
+        child: InkWell(
+          child: VerticalText(
+            textContent: widget.textContent,
+            from: widget.from,
+            singleLineWidth: 16,
+            numberOfSingleLineText: 10,
+          ),
+          onTap: () {
+            loadTextContent();
+          },
         ),
       ),
     );
