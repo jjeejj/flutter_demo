@@ -1,5 +1,5 @@
-name: flutter_wechat_demo
-description: "A new Flutter project."
+name: flutter_demo
+description: "A  flutter demo project"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -31,6 +31,7 @@ dependencies:
   cached_network_image: ^3.3.1
   cupertino_icons: ^1.0.6
   dio: ^5.4.3+1
+  fluro: ^2.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.5
@@ -47,6 +48,8 @@ dependencies:
   routemaster: ^1.0.1
   sentry_flutter: ^8.2.0
   share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.3+1
   url_launcher: ^6.2.6
   yaml: ^3.1.2
 

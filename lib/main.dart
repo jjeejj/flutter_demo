@@ -1,12 +1,18 @@
+import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_wechat_demo/pages/one_show/one_show_page.dart';
-import 'package:flutter_wechat_demo/utils/logger.dart';
+import 'package:flutter_demo/pages/one_show/one_show_page.dart';
+import 'package:flutter_demo/routs/fluro_routes.dart';
+import 'package:flutter_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
 import 'gen/fonts.gen.dart';
 
+final router = FluroRouter();
+
 Future<void> main() async {
   LoggerHelper();
+  // 加载路由
+  FluroRoutes.configureRoutes(router);
   SentryFlutter.init(
     (options) {
       options.dsn = '';

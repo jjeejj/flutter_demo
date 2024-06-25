@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wechat_demo/gen/assets.gen.dart';
+import 'package:flutter_demo/gen/assets.gen.dart';
 
 class HeroAnimtion extends StatelessWidget {
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_wechat_demo/pages/sealed/cubit.dart';
-import 'package:flutter_wechat_demo/pages/sealed/ui_state.dart';
+import 'package:flutter_demo/pages/sealed/cubit.dart';
+import 'package:flutter_demo/pages/sealed/ui_state.dart';
 
 class CubitPage extends StatefulWidget {
   final String title;

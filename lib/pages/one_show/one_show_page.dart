@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_wechat_demo/utils/logger.dart';
+import 'package:flutter_demo/utils/logger.dart';
 import 'package:http/http.dart' as http;
 
 import '../../components/vertical_text.dart';
