@@ -10,29 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 点击重新获取内容">
-      <change afterPath="$PROJECT_DIR$/lib/pages/app_configuration/app_configuration.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/app_index/app_index.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/app_index/explore_all/explore_all.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/app_index/explore_calender/explore_calender.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/app_write_new/app_write_new.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/default/404.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/default/error.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/routs/fluro_routes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/shared_pref.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/constraints/constranints_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/hero_animation/hero.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/hero_animation/hero.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/one_show/one_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/one_show/one_show_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/sealed/cubit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/sealed/cubit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/sealed/cubit_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/sealed/cubit_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/share/share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/share/share.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/call.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/call.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,32 +107,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Dart Command Line App.build_apk.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Flutter Test.Counter increments smoke test.executor&quot;: &quot;Run&quot;,
-    &quot;Flutter Test.new isolate.executor&quot;: &quot;Run&quot;,
-    &quot;Flutter Test.tests in isolates_test.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Flutter.main.dart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wenjunjiang/repo/flutter_wechat_demo/images&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.build_apk.dart.executor": "Run",
+    "Flutter Test.Counter increments smoke test.executor": "Run",
+    "Flutter Test.new isolate.executor": "Run",
+    "Flutter Test.tests in isolates_test.dart.executor": "Run",
+    "Flutter.main.dart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "flutter.view.tool.window.visible": "true",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wenjunjiang/repo/flutter_wechat_demo/images",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "http.proxy",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
