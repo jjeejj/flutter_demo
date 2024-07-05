@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 点击重新获取内容">
-      <change afterPath="$PROJECT_DIR$/lib/pages/constraints/constranints_page.dart" afterDir="false" />
+    <list default="true" id="7a74bd4c-e1b7-4ef2-9152-acfcb739b89e" name="Changes" comment="feat: 约束传递">
+      <change afterPath="$PROJECT_DIR$/test/stream_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +111,7 @@
     "Flutter Test.Counter increments smoke test.executor": "Run",
     "Flutter Test.new isolate.executor": "Run",
     "Flutter Test.tests in isolates_test.dart.executor": "Run",
+    "Flutter Test.tests in stream_test.dart.executor": "Run",
     "Flutter.main.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,7 +121,6 @@
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
     "dart.analysis.tool.window.visible": "false",
-    "flutter.view.tool.window.visible": "true",
     "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
@@ -146,7 +144,7 @@
       <recent name="$PROJECT_DIR$/lib/extensions" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart">
+  <component name="RunManager" selected="Flutter Test.tests in stream_test.dart">
     <configuration name="build_apk.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/script/build_apk.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -169,8 +167,14 @@
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="tests in stream_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/stream_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.tests in stream_test.dart" />
         <item itemvalue="Flutter Test.Counter increments smoke test" />
         <item itemvalue="Flutter Test.new isolate" />
         <item itemvalue="Flutter Test.tests in isolates_test.dart" />
@@ -363,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718264099100</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: 约束传递">
+      <option name="closed" value="true" />
+      <created>1719802109533</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719802109534</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,6 +417,7 @@
     <MESSAGE value="feat: launcher icon" />
     <MESSAGE value="feat: WidgetsBindingObserver" />
     <MESSAGE value="feat: 点击重新获取内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 点击重新获取内容" />
+    <MESSAGE value="feat: 约束传递" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 约束传递" />
   </component>
 </project>
