@@ -19,6 +19,10 @@ class $ImagesGen {
   AssetGenImage get dailyTaskIcon =>
       const AssetGenImage('images/daily_task_icon.png');
 
+  /// File path: images/launcher_icon.png
+  AssetGenImage get launcherIcon =>
+      const AssetGenImage('images/launcher_icon.png');
+
   /// File path: images/login_bg.png
   AssetGenImage get loginBg => const AssetGenImage('images/login_bg.png');
 
@@ -42,6 +46,7 @@ class $ImagesGen {
   List<AssetGenImage> get values => [
         big,
         dailyTaskIcon,
+        launcherIcon,
         loginBg,
         small,
         topOne,

@@ -20,6 +20,14 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
-        }
+        },
+        {
+            "name": "macro_man",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/macros/user_test.dart",
+            "args": ["--enable-experiment=macros"]
+          }
     ]
 }
