@@ -1,7 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/pages/constraints/constranints_page.dart';
-import 'package:flutter_demo/pages/one_show/one_show_page.dart';
 import 'package:flutter_demo/routs/fluro_routes.dart';
 import 'package:flutter_demo/utils/logger.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
