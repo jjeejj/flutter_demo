@@ -44,6 +44,7 @@ dependencies:
   go_router: ^14.1.4
   hive: ^2.2.3
   http: ^1.2.1
+  hugeicons: ^0.0.7
   json: ^0.20.2
   logger: ^2.2.0
   path_provider: ^2.1.3

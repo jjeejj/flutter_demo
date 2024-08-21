@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/pages/camera/video_player_page.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class CameraPage extends StatefulWidget {
   const CameraPage({super.key});
@@ -78,7 +79,9 @@ class _CameraPageState extends State<CameraPage> {
               child: FloatingActionButton(
                 backgroundColor: Colors.red,
                 child: Icon(
-                  _isRecording ? Icons.stop : Icons.circle,
+                  _isRecording ? Icons.stop : HugeIcons.strokeRoundedRecord,
+                  color: Colors.red,
+                  size: 24.0,
                 ),
                 onPressed: () => _recordVideo(),
               ),
