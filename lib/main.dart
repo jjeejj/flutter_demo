@@ -1,61 +1,31 @@
-import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/pages/camera/camer_page.dart';
-import 'package:flutter_demo/routs/fluro_routes.dart';
-import 'package:flutter_demo/utils/logger.dart';
-import 'package:sentry_flutter/sentry_flutter.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_demo/core/routing/app_router.dart';
+import 'package:flutter_demo/shared/theme/app_theme.dart';
+import 'package:flutter_demo/core/providers/theme_provider.dart';
 
-import 'gen/fonts.gen.dart';
-
-final router = FluroRouter();
-
-Future<void> main() async {
-  LoggerHelper();
-  // 加载路由
-  FluroRoutes.configureRoutes(router);
-  SentryFlutter.init(
-    (options) {
-      options.dsn = '';
-      options.compressPayload = true;
-      options.sampleRate = 1.0;
-      options.tracesSampleRate = 1.0;
-    },
-    appRunner: () => runApp(const MyApp()),
+void main() {
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
   );
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-            useMaterial3: true,
-            fontFamily: FontFamily.maShanZheng),
-        darkTheme: ThemeData(
-            brightness: Brightness.dark,
-            primarySwatch: Colors.blue,
-            fontFamily: FontFamily.maShanZheng),
-        themeMode: ThemeMode.system,
-        // home: const TestKeyPage(),
-        // home: SharePage(),
-        // home: HeroAnimtion(),
-        // home: const CubitPage(
-        //   title: 'Sealed Class Tutorial',
-        // ),
-        // home: const TimelinePage(
-        //   count: 20,
-        // ),
-        // home: const CheckBoxPage();
-        // home: const BuildModelPage()
-        // home: OneShowPage());
-        // home:  ConstranintsPage());
-      home: const CameraPage()); 
+  Widget build(BuildContext context, WidgetRef ref) {
+    final themeMode = ref.watch(themeModeProvider);
+    
+    return MaterialApp.router(
+      title: 'Flutter Demo',
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
+      themeMode: themeMode,
+      routerConfig: AppRouter.router,
+    );
   }
 }
 

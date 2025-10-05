@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/pages/camera/video_player_page.dart';
+import 'package:flutter_demo/features/camera/video_player_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class CameraPage extends StatefulWidget {

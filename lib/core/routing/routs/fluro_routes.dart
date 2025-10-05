@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_demo/pages/app_configuration/app_configuration.dart';
-import 'package:flutter_demo/pages/app_index/app_index.dart';
-import 'package:flutter_demo/pages/app_write_new/app_write_new.dart';
-import 'package:flutter_demo/pages/default/error.dart';
+import 'package:flutter_demo/features/app/app_configuration/app_configuration.dart';
+import 'package:flutter_demo/features/app/app_index/app_index.dart';
+import 'package:flutter_demo/features/app/app_write_new/app_write_new.dart';
+import 'package:flutter_demo/features/demo_examples/default/error.dart';
 
 // error
 var errorHandler = Handler(

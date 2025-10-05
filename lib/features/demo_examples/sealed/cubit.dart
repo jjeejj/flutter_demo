@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_demo/pages/sealed/ui_state.dart';
-import 'package:flutter_demo/utils/logger.dart';
+import 'package:flutter_demo/features/demo_examples/sealed/ui_state.dart';
+import 'package:flutter_demo/shared/utils/logger.dart';
 
 class CubitState extends Cubit<UIState> {
   CubitState() : super(const InitialState());

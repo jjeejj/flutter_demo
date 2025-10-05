@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:flutter_demo/models/person.dart';
+import 'package:flutter_demo/shared/models/person.dart';
 
 @dao
 abstract class PersonDao {

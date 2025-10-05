@@ -2,8 +2,8 @@
 import 'dart:async';
 import 'package:floor/floor.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
-import 'package:flutter_demo/daos/person_dao.dart';
-import 'package:flutter_demo/models/person.dart';
+import 'package:flutter_demo/core/database/daos/person_dao.dart';
+import 'package:flutter_demo/shared/models/person.dart';
 
 part 'database.g.dart';
 

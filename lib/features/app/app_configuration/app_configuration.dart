@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_demo/main.dart';
-import 'package:flutter_demo/routs/fluro_routes.dart';
-import 'package:flutter_demo/utils/shared_pref.dart';
+import 'package:flutter_demo/core/routing/routs/fluro_routes.dart';
+import 'package:flutter_demo/shared/utils/shared_pref.dart';
 
 class AppConfigurationPage extends StatefulWidget {
   const AppConfigurationPage({super.key});

@@ -1,4 +1,4 @@
-import 'package:flutter_demo/utils/logger.dart';
+import 'package:flutter_demo/shared/utils/logger.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void launchPhone(String phoneNumber) async {
