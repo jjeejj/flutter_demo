@@ -4,6 +4,7 @@ import 'package:flutter_demo/features/app/pages/home_page.dart';
 import 'package:flutter_demo/features/app/pages/config_page.dart';
 import 'package:flutter_demo/features/app/pages/write_page.dart';
 import 'package:flutter_demo/features/camera/camer_page.dart';
+import 'package:flutter_demo/features/prototype/prototype_page.dart';
 
 /// 应用路由配置
 class AppRouter {
@@ -32,6 +33,12 @@ class AppRouter {
       GoRoute(
         path: '/camera',
         builder: (context, state) => const CameraPage(),
+      ),
+      
+      // 快速原型页面
+      GoRoute(
+        path: '/prototype',
+        builder: (context, state) => const PrototypePage(),
       ),
     ],
   );

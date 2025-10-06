@@ -2,6 +2,7 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/features/camera/video_player_page.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:go_router/go_router.dart';
 
 class CameraPage extends StatefulWidget {
   const CameraPage({super.key});
@@ -63,30 +64,67 @@ class _CameraPageState extends State<CameraPage> {
   @override
   Widget build(BuildContext context) {
     if (_isLoading) {
-      return Container(
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('相机功能'),
+          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+          foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              if (context.canPop()) {
+                context.pop();
+              } else {
+                context.go('/');
+              }
+            },
+            tooltip: '返回',
+          ),
+        ),
+        body: Container(
           color: Colors.white,
           child: const Center(
             child: CircularProgressIndicator(),
-          ));
+          ),
+        ),
+      );
     } else {
-      return Center(
-        child: Stack(
-          alignment: Alignment.bottomCenter,
-          children: [
-            CameraPreview(_cameraController),
-            Padding(
-              padding: const EdgeInsets.all(25),
-              child: FloatingActionButton(
-                backgroundColor: Colors.red,
-                child: Icon(
-                  _isRecording ? Icons.stop : HugeIcons.strokeRoundedRecord,
-                  color: Colors.red,
-                  size: 24.0,
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('相机功能'),
+          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+          foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              if (context.canPop()) {
+                context.pop();
+              } else {
+                context.go('/');
+              }
+            },
+            tooltip: '返回',
+          ),
+        ),
+        body: Center(
+          child: Stack(
+            alignment: Alignment.bottomCenter,
+            children: [
+              CameraPreview(_cameraController),
+              Padding(
+                padding: const EdgeInsets.all(25),
+                child: FloatingActionButton(
+                  backgroundColor: Colors.red,
+                  child: Icon(
+                    _isRecording ? Icons.stop : HugeIcons.strokeRoundedRecord,
+                    color: Colors.red,
+                    size: 24.0,
+                  ),
+                  onPressed: () => _recordVideo(),
                 ),
-                onPressed: () => _recordVideo(),
-              ),
-            )
-          ],
+              )
+            ],
+          ),
         ),
       );
     }

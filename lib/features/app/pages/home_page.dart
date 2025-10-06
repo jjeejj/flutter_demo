@@ -81,6 +81,13 @@ class HomePage extends StatelessWidget {
                   ),
                   _buildFeatureCard(
                     context,
+                    icon: Icons.science,
+                    title: '快速原型',
+                    subtitle: '验证新特性',
+                    onTap: () => context.go('/prototype'),
+                  ),
+                  _buildFeatureCard(
+                    context,
                     icon: Icons.info,
                     title: '关于',
                     subtitle: '应用信息',

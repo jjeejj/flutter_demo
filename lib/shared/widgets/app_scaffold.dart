@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 /// 应用通用脚手架组件
 class AppScaffold extends StatelessWidget {
@@ -9,6 +10,7 @@ class AppScaffold extends StatelessWidget {
   final Widget? drawer;
   final bool showAppBar;
   final Color? backgroundColor;
+  final bool showBackButton;
 
   const AppScaffold({
     super.key,
@@ -19,6 +21,7 @@ class AppScaffold extends StatelessWidget {
     this.drawer,
     this.showAppBar = true,
     this.backgroundColor,
+    this.showBackButton = true,
   });
 
   @override
@@ -32,6 +35,19 @@ class AppScaffold extends StatelessWidget {
               elevation: 0,
               backgroundColor: Theme.of(context).primaryColor,
               foregroundColor: Colors.white,
+              leading: showBackButton
+                  ? IconButton(
+                      icon: const Icon(Icons.arrow_back),
+                      onPressed: () {
+                        if (context.canPop()) {
+                          context.pop();
+                        } else {
+                          context.go('/');
+                        }
+                      },
+                      tooltip: '返回',
+                    )
+                  : null,
             )
           : null,
       body: SafeArea(child: body),
