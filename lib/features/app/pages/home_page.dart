@@ -60,6 +60,13 @@ class HomePage extends StatelessWidget {
                 children: [
                   _buildFeatureCard(
                     context,
+                    icon: Icons.palette,
+                    title: 'UI 技巧',
+                    subtitle: 'Flutter UI 演示',
+                    onTap: () => context.go('/ui-tricks'),
+                  ),
+                  _buildFeatureCard(
+                    context,
                     icon: Icons.camera_alt,
                     title: '相机功能',
                     subtitle: '拍照和录像',
